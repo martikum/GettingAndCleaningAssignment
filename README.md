@@ -23,12 +23,9 @@ Codebook
 Here is the the codebook of the resulted dataset. Value in each column represents the mean value of the corresponding data for each subject and each activity:
 
 1                          subject  
-2                         activity
-
-3                tBodyAcc.mean...X
-
-4                tBodyAcc.mean...Y
-
+2                         activity  
+3                tBodyAcc.mean...X  
+4                tBodyAcc.mean...Y  
 5                tBodyAcc.mean...Z  
 6                 tBodyAcc.std...X  
 7                 tBodyAcc.std...Y  
