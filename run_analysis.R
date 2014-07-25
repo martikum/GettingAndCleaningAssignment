@@ -1,7 +1,7 @@
 library(stringr)
 library(plyr)
 
-# reading features and activities names
+## reading features and activities names
 featuresNames <- read.table("features.txt")
 activityL <- read.table("activity_labels.txt")
 
@@ -35,5 +35,5 @@ tidyDataSet <- var561Data[, c(meanStdLogi, TRUE, TRUE)]
 ## aggregate data grouping by subject + activity columns
 tidyDataSetMeans <- aggregate(. ~ subject+activity, data = tidyDataSet, FUN = function(x) c(mn = mean(x) ) )
 
-## export resulting data set to tidyDataSetMeans.txt file
-write.table(tidyDataSetMeans, file = "tidyDataSetMeans.txt")
+## export resulting data set to output.txt file
+write.table(tidyDataSetMeans, file = "output.txt")
