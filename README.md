@@ -1,4 +1,4 @@
-GettingAndCleaningAssignment
+Getting And Cleaning Assignment
 ============================
 
 The code reads features and activities names.
