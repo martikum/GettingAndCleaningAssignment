@@ -1,4 +1,4 @@
-Getting And Cleaning Assignment
+Getting And Cleaning Data Assignment
 ============================
 
 The code reads features and activities names.
